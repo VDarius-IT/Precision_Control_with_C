@@ -184,7 +184,7 @@ Generated json
 
 📌 See /docs/cli-guide.md for more advanced usage and command-line arguments.
 
-🧠 Best Practices & Lessons Learned
+## 🧠 Best Practices & Lessons Learned
 
 C# is viable for embedded systems, but only with intentional, performance-aware design.
 
@@ -198,7 +198,7 @@ Design for graceful degradation. Your software should handle hardware failures w
 
 This project was instrumental in deepening my understanding of system integration, cross-layer debugging, and performance tuning key skills in modern industrial software.
 
-👋 Contributing
+## 👋 Contributing
 
 Contributions are welcome! This is a personal project, but I am open to collaboration and improvements. Please follow these steps:
 
