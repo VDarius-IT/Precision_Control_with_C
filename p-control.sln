@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrecisionControl", "PrecisionControl", "{981D90D5-1AB7-07F0-79FB-21C4B301C3AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{053E1558-0730-2993-015A-F0AD498FF0BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrecisionControl", "PrecisionControl\src\PrecisionControl\PrecisionControl.csproj", "{7DFF7A2B-C219-009C-7CC8-EA98D9118BC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DFF7A2B-C219-009C-7CC8-EA98D9118BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFF7A2B-C219-009C-7CC8-EA98D9118BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFF7A2B-C219-009C-7CC8-EA98D9118BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFF7A2B-C219-009C-7CC8-EA98D9118BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{053E1558-0730-2993-015A-F0AD498FF0BF} = {981D90D5-1AB7-07F0-79FB-21C4B301C3AE}
+		{7DFF7A2B-C219-009C-7CC8-EA98D9118BC7} = {053E1558-0730-2993-015A-F0AD498FF0BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BB5EA9E-AE2F-489F-B0FB-0C0E3EA3DDB7}
+	EndGlobalSection
+EndGlobal

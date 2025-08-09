@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TieredCompilation>true</TieredCompilation>
+    <TieredPGO>true</TieredPGO>
+    <ServerGarbageCollection>true</ServerGarbageCollection>
+    <AssemblyName>PrecisionControl</AssemblyName>
+    <RootNamespace>PrecisionControl</RootNamespace>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <DebugType>portable</DebugType>
+    <!-- Enable when publishing to specific targets
+    <PublishTrimmed>true</PublishTrimmed>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    -->
+  </PropertyGroup>
+  <!-- Channels are available in BCL on .NET 8; no extra packages needed -->
+</Project>
